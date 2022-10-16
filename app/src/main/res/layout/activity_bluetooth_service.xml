@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".service.wifimanager.WifiServiceActivity">
+
+    <Switch
+        android:id="@+id/switch_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/margin_8dp"
+        android:text="WiFi"
+        android:textSize="@dimen/test_size_18sp"
+        android:textStyle="bold"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/switch_on_off"
+        android:id="@+id/getWifiDevice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Get Wifi Device"
+        android:textColor="@color/white"
+        android:background="@drawable/camera_permission_button_drawable_ripple"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/getWifiDevice"
+        android:id="@+id/getPairedWifiDevice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Get Paired Wifi Device"
+        android:textColor="@color/white"
+        android:background="@drawable/camera_permission_button_drawable_ripple"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_for_camera_permission_popup">18sp</dimen>
+    <dimen name="margin_start_for_camera_permission_popup">12dp</dimen>
+    <dimen name="margin_end_for_camera_permission_popup">12dp</dimen>
+    <dimen name="padding_for_camera_permission_popup">8dp</dimen>
+    <dimen name="padding_top_for_camera_permission_popup">6dp</dimen>
+    <dimen name="padding_bottom_camera_permission_popup">6dp</dimen>
+    <dimen name="button_corner_radius">16dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="test_size_18sp">18sp</dimen>
+    <dimen name="padding_6dp">6dp</dimen>
+    <dimen name="edit_text_background_corner_radius">16dp</dimen>
+    <dimen name="linear_layout_height_size">40dp</dimen>
+    <dimen name="text_height_size">30dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+</resources>

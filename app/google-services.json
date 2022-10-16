@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1002838302403",
+    "project_id": "allinone-9a0a3",
+    "storage_bucket": "allinone-9a0a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002838302403:android:8f62653b34c3e26271cc76",
+        "android_client_info": {
+          "package_name": "com.avisys.allinone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002838302403-7l852pfjo1euu8f3bt6sda2qh8oqc0gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7VYLx06jGN6KOa6oKL5Pk-oaUoSEMMaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002838302403-7l852pfjo1euu8f3bt6sda2qh8oqc0gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

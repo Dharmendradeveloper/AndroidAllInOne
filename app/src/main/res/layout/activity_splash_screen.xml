@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SplashScreenActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/roomDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="RoomDatabase"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+        <TextView
+            android:id="@+id/lifeCycle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="LifeCycle"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+
+        <TextView
+            android:id="@+id/pagination"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="Pagination"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+
+        <TextView
+            android:id="@+id/touchGameView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="TouchGameView"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+
+        <TextView
+            android:id="@+id/singleRunTimePermission"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="SingleRuntimePermission"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+
+        <TextView
+            android:id="@+id/multiRuntimePermission"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="MultipleRuntimePermission"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+
+        <TextView
+            android:id="@+id/multiSprite"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="MultiSprite"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+
+        <TextView
+            android:id="@+id/content_resolver"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="ContentResolver"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+        <TextView
+            android:id="@+id/location_service"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="Location Service"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+        <TextView
+            android:id="@+id/wifi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="WiFi Service"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+        <TextView
+            android:id="@+id/media_player"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="Media Player"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+        <TextView
+            android:id="@+id/network"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="Check Internet"
+            android:textColor="@color/white"
+            android:background="@drawable/camera_permission_button_drawable_ripple"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

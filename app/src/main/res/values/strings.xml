@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidAllInOne</string>
+    <string name="camera_text">Hey i want your camera permission,because you can either clicked your image on stay at app</string>
+    <string name="cancel_camera_permission">Cancel</string>
+    <string name="continue_with_camera_permission">Continue</string>
+    <string name="paging_concept">Paging Concept</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_your_user_name">Enter Your User Name</string>
+    <string name="user_name_start">User name *</string>
+    <string name="age">Age*</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="address">Address*</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="insert">Insert</string>
+</resources>
